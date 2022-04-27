@@ -1,0 +1,109 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Logout",
+    "line": 1,
+    "id": "logout",
+    "tags": [],
+    "uri": "logout.feature",
+    "elements": [
+      {
+        "id": "logout;login-first-then-logout",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login first then logout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 8211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 5784000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "vecanon423@richdn.com",
+                      "@Testing11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user fill in the form with the following information and submit",
+            "result": {
+              "status": "passed",
+              "duration": 1813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user should be redirected to the homepage with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user click the signout button",
+            "result": {
+              "status": "failed",
+              "duration": 10065000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `header > div`, but never found it.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\logout.feature:66:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\logout.feature:10474:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\logout.feature:9795:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should be redirected to the homepage with the title \"Log In\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

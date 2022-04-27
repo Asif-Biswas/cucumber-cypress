@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Storefront page Features Navigation",
+    "line": 1,
+    "id": "storefront-page-features-navigation",
+    "tags": [],
+    "uri": "storefrontNavigation.feature",
+    "elements": [
+      {
+        "id": "storefront-page-features-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 263844000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click Features nav item",
+            "result": {
+              "status": "passed",
+              "duration": 1363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user click \"Cart Shipping\" link",
+            "result": {
+              "status": "passed",
+              "duration": 6404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"Cart Shipping\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "storefront-page-features-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 27248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click Features nav item",
+            "result": {
+              "status": "passed",
+              "duration": 5024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user click \"Headless Commerce & Full Control\" link",
+            "result": {
+              "status": "passed",
+              "duration": 39610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"Headless Commerce & Full Control\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 727000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

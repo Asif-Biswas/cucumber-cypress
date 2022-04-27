@@ -1,0 +1,81 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Book a demo",
+    "line": 1,
+    "id": "book-a-demo",
+    "tags": [],
+    "uri": "bookADemo.feature",
+    "elements": [
+      {
+        "id": "book-a-demo;fill-in-the-form-and-submit",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Fill in the form and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the Book a chat page",
+            "result": {
+              "status": "passed",
+              "duration": 5691000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "phone",
+                      "email",
+                      "country",
+                      "zip",
+                      "interested",
+                      "message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "vec",
+                      "anon",
+                      "123456789",
+                      "vecanon423@richdn.com",
+                      "United States",
+                      "1234",
+                      "Storefront",
+                      "Hello"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user fill in the form with the following information and submit",
+            "result": {
+              "status": "passed",
+              "duration": 6149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should be see the page with \"Thank you! 🙌 A representative will be in touch shortly.\"",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Random button click Navigation",
+    "line": 1,
+    "id": "random-button-click-navigation",
+    "tags": [],
+    "uri": "buttonClickNavigation.feature",
+    "elements": [
+      {
+        "id": "random-button-click-navigation;user-clicks-on-random-button",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User clicks on random button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 17401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user click \"Comparison\" button",
+            "result": {
+              "status": "passed",
+              "duration": 4359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with \"Feature Comparison\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "random-button-click-navigation;user-clicks-on-random-button",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User clicks on random button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://www.cart.com/storefront/online-store/cart-shipping\" page",
+            "result": {
+              "status": "passed",
+              "duration": 4096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user click \"Book a demo\" button",
+            "result": {
+              "status": "passed",
+              "duration": 3740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with \"Book a chat\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

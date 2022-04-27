@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Footer Navigation",
+    "line": 1,
+    "id": "footer-navigation",
+    "tags": [],
+    "uri": "footerNavigation.feature",
+    "elements": [
+      {
+        "id": "footer-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "result": {
+              "status": "passed",
+              "duration": 46979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click \"Pixel\"",
+            "result": {
+              "status": "passed",
+              "duration": 2786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "a page with \"Unlock the path to incrementality.\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "result": {
+              "status": "passed",
+              "duration": 4098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click \"Inventory Storage\"",
+            "result": {
+              "status": "passed",
+              "duration": 3507000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "a page with \"Big footprint. Small price tag.\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-navigation;user-scrolls-to-the-bottom-of-the-page-and-clicking-a-link-navigates-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User scrolls to the bottom of the page and clicking a link navigates to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "result": {
+              "status": "passed",
+              "duration": 3386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user click \"About Us\"",
+            "result": {
+              "status": "passed",
+              "duration": 2820000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "a page with \"Power to the brands\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Dropdown Navigation",
+    "line": 1,
+    "id": "dropdown-navigation",
+    "tags": [],
+    "uri": "dropdownNavigation.feature",
+    "elements": [
+      {
+        "id": "dropdown-navigation;click-the-navigation-dropdown-menu-item,-then-hover-the-item-and-click-on-the-lick-to-navigate-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Click the navigation dropdown menu item, then hover the item and click on the lick to navigate to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
+            "result": {
+              "status": "passed",
+              "duration": 35479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click the dropdown menu item",
+            "result": {
+              "status": "passed",
+              "duration": 643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "hover the \"Storefront\" link",
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click \"Storefront Analytics\" link",
+            "result": {
+              "status": "passed",
+              "duration": 4326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"A bird's-eye view of your online store data.\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

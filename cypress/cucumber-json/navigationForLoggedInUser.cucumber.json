@@ -1,0 +1,119 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigation for logged in users",
+    "line": 1,
+    "id": "navigation-for-logged-in-users",
+    "tags": [],
+    "uri": "navigationForLoggedInUser.feature",
+    "elements": [
+      {
+        "id": "navigation-for-logged-in-users;fill-in-the-form-and-submit",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Fill in the form and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 8511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 7820000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "vecanon423@richdn.com",
+                      "@Testing11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user fill in the form with the following information and submit",
+            "result": {
+              "status": "passed",
+              "duration": 3208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user should be redirected to the homepage with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 15420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "click the \"Fulfillment\" link",
+            "result": {
+              "status": "passed",
+              "duration": 3075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user should be redirected to the page with the title \"Fulfillment\"",
+            "result": {
+              "status": "passed",
+              "duration": 531000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigation",
+    "line": 1,
+    "id": "navigation",
+    "tags": [],
+    "uri": "navigation.feature",
+    "elements": [
+      {
+        "id": "navigation;hover-over-the-navigation-menu-funding-and-click-on-the-growth-capital-to-navigate-to-the-page-with-\"ecommerce-focused-funding.\"",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Hover over the navigation menu Funding and click on the Growth Capital to navigate to the page with \"Ecommerce-focused funding.\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 176359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hover over the menu \"Storefront\"",
+            "result": {
+              "status": "passed",
+              "duration": 792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click \"Storefront Analytics\" link",
+            "result": {
+              "status": "passed",
+              "duration": 8616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"A bird's-eye view of your online store data.\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation;hover-over-the-navigation-menu-funding-and-click-on-the-growth-capital-to-navigate-to-the-page-with-\"ecommerce-focused-funding.\"",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Hover over the navigation menu Funding and click on the Growth Capital to navigate to the page with \"Ecommerce-focused funding.\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 9763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hover over the menu \"Fulfillment\"",
+            "result": {
+              "status": "passed",
+              "duration": 980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click \"Order Management\" link",
+            "result": {
+              "status": "passed",
+              "duration": 30969000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"The who, what, when, where and why of every order.\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 289000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation;hover-over-the-navigation-menu-funding-and-click-on-the-growth-capital-to-navigate-to-the-page-with-\"ecommerce-focused-funding.\"",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Hover over the navigation menu Funding and click on the Growth Capital to navigate to the page with \"Ecommerce-focused funding.\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user hover over the menu \"Funding\"",
+            "result": {
+              "status": "passed",
+              "duration": 728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click \"Growth Capital\" link",
+            "result": {
+              "status": "passed",
+              "duration": 13185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a page with \"Ecommerce-focused funding.\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
