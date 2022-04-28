@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 66747000000
+              "duration": 101828000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 9767000000
+              "duration": 9913000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 8147000000
+              "duration": 12265000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 2347000000
+              "duration": 2207000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "the user should be redirected to the homepage with the title \"Featured Solutions\"",
             "result": {
               "status": "passed",
-              "duration": 12899000000
+              "duration": 19923000000
             }
           }
         ]

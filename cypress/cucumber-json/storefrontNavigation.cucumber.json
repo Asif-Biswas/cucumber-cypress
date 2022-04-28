@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
               "status": "passed",
-              "duration": 285248000000
+              "duration": 417925000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click Features nav item",
             "result": {
               "status": "passed",
-              "duration": 449000000
+              "duration": 617000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "the user click \"Cart Shipping\" link",
             "result": {
               "status": "passed",
-              "duration": 4186000000
+              "duration": 3663000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "a page with \"Cart Shipping\" appears",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 106000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
               "status": "passed",
-              "duration": 4692000000
+              "duration": 12164000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "the user click Features nav item",
             "result": {
               "status": "passed",
-              "duration": 356000000
+              "duration": 2692000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "the user click \"Headless Commerce & Full Control\" link",
             "result": {
               "status": "passed",
-              "duration": 3411000000
+              "duration": 27877000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "a page with \"Headless Commerce & Full Control\" appears",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 162000000
             }
           }
         ]

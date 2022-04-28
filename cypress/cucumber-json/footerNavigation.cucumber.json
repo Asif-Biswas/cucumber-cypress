@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 45917000000
+              "duration": 74612000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click \"Pixel\"",
             "result": {
               "status": "passed",
-              "duration": 2345000000
+              "duration": 4177000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "a page with \"Unlock the path to incrementality.\" appears",
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 208000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 4742000000
+              "duration": 6966000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "the user click \"Inventory Storage\"",
             "result": {
               "status": "passed",
-              "duration": 3257000000
+              "duration": 2853000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "a page with \"Big footprint. Small price tag.\" appears",
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 144000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 3472000000
+              "duration": 4560000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "the user click \"About Us\"",
             "result": {
               "status": "passed",
-              "duration": 2633000000
+              "duration": 3781000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "a page with \"Power to the brands\" appears",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 106000000
             }
           }
         ]

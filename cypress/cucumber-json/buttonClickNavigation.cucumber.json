@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
               "status": "passed",
-              "duration": 19285000000
+              "duration": 31495000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click \"Comparison\" button",
             "result": {
               "status": "passed",
-              "duration": 3877000000
+              "duration": 8480000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "a page with \"Feature Comparison\" appears",
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 105000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store/cart-shipping\" page",
             "result": {
               "status": "passed",
-              "duration": 4350000000
+              "duration": 7880000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "the user click \"Book a demo\" button",
             "result": {
               "status": "passed",
-              "duration": 2801000000
+              "duration": 7078000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "a page with \"Book a chat\" appears",
             "result": {
               "status": "passed",
-              "duration": 79000000
+              "duration": 133000000
             }
           }
         ]

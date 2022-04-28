@@ -62,7 +62,7 @@ And("user should be redirected to the signup page with the title {string}", (str
             });
         }
     });
-    cy.wait(8000);
+    cy.wait(12000);
     cy.contains(string)
 });
 
@@ -101,7 +101,7 @@ And("the user fill the organization form and submit", () => {
         cy.get('div > button').click();
         cy.contains('Online').click();
     });
-
+    cy.wait(5000);
     cy.contains('Create Organization').click();
 });
 

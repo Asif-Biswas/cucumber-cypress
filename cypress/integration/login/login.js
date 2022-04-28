@@ -19,7 +19,7 @@ And("user click the signup button", () => {
 });
 
 And("user should be redirected to the signup page with the title {string}", (string) => {
-    cy.wait(8000);
+    cy.wait(12000);
     cy.contains(string)
 });
 
@@ -34,6 +34,6 @@ When("the user fill in the form with the following information and submit", (dat
 });
 
 Then("the user should be redirected to the homepage with the title {string}", (content) => {
-    cy.wait(12000);
+    cy.wait(18000);
     cy.contains(content);
 });

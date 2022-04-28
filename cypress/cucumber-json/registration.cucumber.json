@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 213772000000
+              "duration": 338266000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 2596000000
+              "duration": 10922000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 16867000000
+              "duration": 20285000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "user click the Create Account button",
             "result": {
               "status": "passed",
-              "duration": 1302000000
+              "duration": 299000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 12335000000
+              "duration": 3491000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "the user see the Create Organization button and click it",
             "result": {
               "status": "passed",
-              "duration": 21270000000
+              "duration": 21210000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "the user fill the organization form and submit",
             "result": {
               "status": "passed",
-              "duration": 7203000000
+              "duration": 14232000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "the user should be redirected to the homepage with the text \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 2011000000
+              "duration": 2038000000
             }
           }
         ]
