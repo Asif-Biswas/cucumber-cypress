@@ -18,6 +18,17 @@ function makeEmail() {
     return strEmail;
 }
 
+function generateRandomeText() {
+    var strValues = "abcdefg12345";
+    var strEmail = "";
+    var strTmp;
+    for (var i = 0; i < 10; i++) {
+        strTmp = strValues.charAt(Math.round(strValues.length * Math.random()));
+        strEmail = strEmail + strTmp;
+    }
+    return strEmail;
+}
+
 Cypress.on('uncaught:exception', (err, runnable) => {
     // returning false here prevents Cypress from
     // failing the test
@@ -36,6 +47,22 @@ And("user click the signup button", () => {
 });
 
 And("user should be redirected to the signup page with the title {string}", (string) => {
+    cy.wait(8000);
+    // if (Cypress.$("#login-email").length > 0) {
+    //     // element exists, do something
+    // }
+    cy.get("body").then($body => {
+        if ($body.find("#login-email").length > 0) {
+            //evaluates as true
+        } else {
+            cy.contains("Create Organization").click();
+            cy.get('header > div').eq(2).within(() => {
+                cy.get('div > button').click();
+                cy.contains('Sign Out').click();
+            });
+        }
+    });
+    cy.wait(8000);
     cy.contains(string)
 });
 
@@ -51,12 +78,35 @@ When("the user fill in the form with the following information and submit", (dat
         cy.get('#email').type(makeEmail());
         cy.get('#password').type(row.password);
         cy.get('#phone').type(row.phone);
-        
+
         cy.get('#btn-signup').click();
     });
 });
 
+And("the user see the Create Organization button and click it", () => {
+    cy.wait(20000)
+    cy.contains('Create Organization').click();
+});
+
+And("the user fill the organization form and submit", () => {
+    cy.get('#organization-name').type(generateRandomeText());
+    cy.get('#organization-url').type('example.com');
+    // select the 3rd div of form
+    cy.get('form > div').eq(2).within(() => {
+        cy.get('div > button').click();
+        cy.contains('$0 - $200,000').click();
+    });
+    // select the 4th div of form
+    cy.get('form > div').eq(3).within(() => {
+        cy.get('div > button').click();
+        cy.contains('Online').click();
+    });
+
+    cy.contains('Create Organization').click();
+});
+
+
+
 Then("the user should be redirected to the homepage with the text {string}", (content) => {
-    cy.wait(15000)
     cy.contains(content);
 });

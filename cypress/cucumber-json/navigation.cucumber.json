@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 160129000000
+              "duration": 149861000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user hover over the menu \"Storefront\"",
             "result": {
               "status": "passed",
-              "duration": 537000000
+              "duration": 409000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "click \"Storefront Analytics\" link",
             "result": {
               "status": "passed",
-              "duration": 3920000000
+              "duration": 2420000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "a page with \"A bird's-eye view of your online store data.\" appears",
             "result": {
               "status": "passed",
-              "duration": 132000000
+              "duration": 130000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 4403000000
+              "duration": 5145000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "the user hover over the menu \"Fulfillment\"",
             "result": {
               "status": "passed",
-              "duration": 650000000
+              "duration": 333000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "click \"Order Management\" link",
             "result": {
               "status": "passed",
-              "duration": 3630000000
+              "duration": 3274000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "a page with \"The who, what, when, where and why of every order.\" appears",
             "result": {
               "status": "passed",
-              "duration": 156000000
+              "duration": 107000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 4733000000
+              "duration": 4624000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "the user hover over the menu \"Funding\"",
             "result": {
               "status": "passed",
-              "duration": 562000000
+              "duration": 425000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "click \"Growth Capital\" link",
             "result": {
               "status": "passed",
-              "duration": 11407000000
+              "duration": 9184000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "a page with \"Ecommerce-focused funding.\" appears",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 87000000
             }
           }
         ]

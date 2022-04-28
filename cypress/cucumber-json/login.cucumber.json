@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 66818000000
+              "duration": 66747000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 9165000000
+              "duration": 9767000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 8323000000
+              "duration": 8147000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 2413000000
+              "duration": 2347000000
             }
           },
           {
@@ -78,9 +78,8 @@
             "line": 11,
             "name": "the user should be redirected to the homepage with the title \"Featured Solutions\"",
             "result": {
-              "status": "failed",
-              "duration": 17192000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Featured Solutions' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\login.feature:65:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\login.feature:10467:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\login.feature:9788:35)"
+              "status": "passed",
+              "duration": 12899000000
             }
           }
         ]
