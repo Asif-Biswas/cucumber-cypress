@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
               "status": "passed",
-              "duration": 263844000000
+              "duration": 341486000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click Features nav item",
             "result": {
               "status": "passed",
-              "duration": 1363000000
+              "duration": 1272000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "the user click \"Cart Shipping\" link",
             "result": {
               "status": "passed",
-              "duration": 6404000000
+              "duration": 4954000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "a page with \"Cart Shipping\" appears",
             "result": {
               "status": "passed",
-              "duration": 183000000
+              "duration": 138000000
             }
           }
         ]
@@ -71,8 +71,8 @@
             "line": 4,
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
-              "status": "passed",
-              "duration": 27248000000
+              "status": "failed",
+              "error_message": "CypressError: Cypress command timeout of `4000ms` exceeded.\n\nBecause this error occurred during a `after all` hook we are skipping the remaining tests in the current suite: `Storefront page Features Na...`\n    at cypressErr (https://www.cart.com/__cypress/runner/cypress_runner.js:176389:18)\n    at Object.errByPath (https://www.cart.com/__cypress/runner/cypress_runner.js:176458:10)\n    at https://www.cart.com/__cypress/runner/cypress_runner.js:178227:80"
             }
           },
           {
@@ -81,8 +81,7 @@
             "line": 7,
             "name": "the user click Features nav item",
             "result": {
-              "status": "passed",
-              "duration": 5024000000
+              "status": "skipped"
             }
           },
           {
@@ -91,8 +90,7 @@
             "line": 8,
             "name": "the user click \"Headless Commerce & Full Control\" link",
             "result": {
-              "status": "passed",
-              "duration": 39610000000
+              "status": "skipped"
             }
           },
           {
@@ -101,8 +99,7 @@
             "line": 9,
             "name": "a page with \"Headless Commerce & Full Control\" appears",
             "result": {
-              "status": "passed",
-              "duration": 727000000
+              "status": "skipped"
             }
           }
         ]

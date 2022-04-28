@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 7142000000
+              "duration": 195521000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 8511000000
+              "duration": 8803000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 7820000000
+              "duration": 5656000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 3208000000
+              "duration": 4372000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "the user should be redirected to the homepage with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 150000000
             }
           },
           {
@@ -89,7 +89,7 @@
             "name": "the user click the dropdown menu",
             "result": {
               "status": "passed",
-              "duration": 15420000000
+              "duration": 13451000000
             }
           },
           {
@@ -99,7 +99,7 @@
             "name": "click the \"Fulfillment\" link",
             "result": {
               "status": "passed",
-              "duration": 3075000000
+              "duration": 3631000000
             }
           },
           {
@@ -109,7 +109,7 @@
             "name": "the user should be redirected to the page with the title \"Fulfillment\"",
             "result": {
               "status": "passed",
-              "duration": 531000000
+              "duration": 798000000
             }
           }
         ]

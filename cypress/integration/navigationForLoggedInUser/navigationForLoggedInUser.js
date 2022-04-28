@@ -37,6 +37,7 @@ And("the user should be redirected to the homepage with the title {string}", (co
 
 When("the user click the dropdown menu", () => {
     cy.get("body").then($body => {
+        cy.wait(8000);
         if ($body.find(".css-ki3ndu").length > 0) {   
         //evaluates as true if button exists at all
             cy.get(".css-ki3ndu").then($header => {

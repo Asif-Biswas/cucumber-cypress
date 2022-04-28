@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 222220000000
+              "duration": 297440000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 4073000000
+              "duration": 10914000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 7016000000
+              "duration": 5294000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "user click the Create Account button",
             "result": {
               "status": "passed",
-              "duration": 782000000
+              "duration": 436000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 23069000000
+              "duration": 5423000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "the user should be redirected to the homepage with the text \"Organization\"",
             "result": {
               "status": "passed",
-              "duration": 533000000
+              "duration": 15449000000
             }
           }
         ]

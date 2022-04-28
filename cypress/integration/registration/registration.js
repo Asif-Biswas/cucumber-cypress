@@ -53,10 +53,10 @@ When("the user fill in the form with the following information and submit", (dat
         cy.get('#phone').type(row.phone);
         
         cy.get('#btn-signup').click();
-        cy.wait(15000)
     });
 });
 
 Then("the user should be redirected to the homepage with the text {string}", (content) => {
+    cy.wait(15000)
     cy.contains(content);
 });

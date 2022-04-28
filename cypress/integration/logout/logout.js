@@ -37,6 +37,7 @@ And("the user should be redirected to the homepage with the title {string}", (co
 });
 
 When("the user click the signout button", () => {
+    cy.wait(8000);
     cy.get('header > div').eq(2).within(() => {
         cy.get('div > button').click();
         cy.contains('Sign Out').click();
