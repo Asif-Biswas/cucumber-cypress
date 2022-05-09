@@ -8,10 +8,10 @@
     "uri": "login.feature",
     "elements": [
       {
-        "id": "login;fill-in-the-form-and-submit",
+        "id": "login;click-bottom-login-link-from-create-account-page",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "Fill in the form and submit",
+        "line": 39,
+        "name": "Click bottom Login link from Create Account page",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 101828000000
+              "duration": 8901000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 9913000000
+              "duration": 13492000000
             }
           },
           {
@@ -42,44 +42,37 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 12265000000
+              "duration": 9477000000
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "email",
-                      "password"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "vecanon423@richdn.com",
-                      "@Testing11"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "the user fill in the form with the following information and submit",
+            "line": 40,
+            "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 2207000000
+              "duration": 456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Click bottom Log in link",
+            "result": {
+              "status": "passed",
+              "duration": 1363000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "the user should be redirected to the homepage with the title \"Featured Solutions\"",
+            "line": 42,
+            "name": "I see Log In button exists",
             "result": {
               "status": "passed",
-              "duration": 19923000000
+              "duration": 117000000
             }
           }
         ]

@@ -62,15 +62,15 @@ And("user should be redirected to the signup page with the title {string}", (str
             });
         }
     });
-    cy.wait(12000);
+    cy.wait(5000);
     cy.contains(string)
 });
 
-And("user click the Create Account button", (string) => {
+When("user click the Create Account button", (string) => {
     cy.get('#nav-profile-tab').click();
 });
 
-When("the user fill in the form with the following information and submit", (datatable) => {
+And("the user fill in the form with the following information and submit", (datatable) => {
     // user fill in the form with the following information
     datatable.hashes().forEach(row => {
         cy.get('#x_first_name').type(row.firstname);
@@ -105,8 +105,50 @@ And("the user fill the organization form and submit", () => {
     cy.contains('Create Organization').click();
 });
 
-
-
 Then("the user should be redirected to the homepage with the text {string}", (content) => {
     cy.contains(content);
 });
+
+
+
+
+When("I click {string}", (string) => {
+    cy.contains(string).click();
+});
+Then("I see {string}", (content) => {
+    cy.contains(content);
+});
+
+
+//
+And("I click Create Account button", () => {
+    cy.get('#btn-signup').click();
+})
+
+
+//
+And("I fill in the form with the following information and submit without filling {string}", (string, datatable) => {
+    datatable.hashes().forEach(row => {
+        cy.get('#x_first_name').type(row.firstname);
+        cy.get('#x_last_name').type(row.lastname);
+        cy.get('#email').type(makeEmail());
+        cy.get('#password').type(row.password);
+        cy.get('#phone').type(row.phone);
+    });
+
+    if (string === "First name") {
+        cy.get('#x_first_name').clear();
+    } else if (string === "Last name") {
+        cy.get('#x_last_name').clear();
+    } else if (string === "Email") {
+        cy.get('#email').clear();
+    } else if (string === "Password") {
+        cy.get('#password').clear();
+    } else if (string === "Phone") {
+        cy.get('#phone').clear();
+    }
+
+    cy.get('#btn-signup').click();
+})
+
+

@@ -8,10 +8,10 @@
     "uri": "registration.feature",
     "elements": [
       {
-        "id": "registration;fill-in-the-form-and-submit",
+        "id": "registration;fill-in-the-form-with-valid-information-and-submit",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "Fill in the form and submit",
+        "line": 10,
+        "name": "Fill in the form with valid information and submit",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 338266000000
+              "duration": 8613000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 10922000000
+              "duration": 7414000000
             }
           },
           {
@@ -42,17 +42,17 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 20285000000
+              "duration": 20262000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 8,
+            "keyword": "When ",
+            "line": 11,
             "name": "user click the Create Account button",
             "result": {
               "status": "passed",
-              "duration": 299000000
+              "duration": 469000000
             }
           },
           {
@@ -78,42 +78,626 @@
                 ]
               }
             ],
-            "keyword": "When ",
-            "line": 9,
+            "keyword": "And ",
+            "line": 12,
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 3491000000
+              "duration": 2988000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
+            "line": 15,
             "name": "the user see the Create Organization button and click it",
             "result": {
-              "status": "passed",
-              "duration": 21210000000
+              "status": "failed",
+              "duration": 24208000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Create Organization' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\registration.feature:120:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\registration.feature:10575:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\registration.feature:9896:35)"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 13,
+            "line": 16,
             "name": "the user fill the organization form and submit",
             "result": {
-              "status": "passed",
-              "duration": 14232000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 17,
             "name": "the user should be redirected to the homepage with the text \"Welcome to Cart.com\"",
             "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-navigation",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Create account navigation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
               "status": "passed",
-              "duration": 2038000000
+              "duration": 8372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 10545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 20346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I see \"First name\"",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-information",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Create account without information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 9610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 20284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click Create Account button",
+            "result": {
+              "status": "passed",
+              "duration": 782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 257000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-first-name-field",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Create account without First Name field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 9221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 20331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 479000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I fill in the form with the following information and submit without filling \"First name\"",
+            "result": {
+              "status": "passed",
+              "duration": 4144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-last-name-field",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Create account without Last Name field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 15119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 20317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 454000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I fill in the form with the following information and submit without filling \"Last name\"",
+            "result": {
+              "status": "passed",
+              "duration": 3472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-password-field",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Create account without Password field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 12317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 12987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 20386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I fill in the form with the following information and submit without filling \"Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 3593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-phone-field",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Create account without Phone field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 7357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 20313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I fill in the form with the following information and submit without filling \"Phone\"",
+            "result": {
+              "status": "passed",
+              "duration": 4340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-email-field",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Create account without Email field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 16020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 20385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I fill in the form with the following information and submit without filling \"Email\"",
+            "result": {
+              "status": "passed",
+              "duration": 3594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
             }
           }
         ]

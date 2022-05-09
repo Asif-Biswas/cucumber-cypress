@@ -5,7 +5,7 @@
     "line": 1,
     "id": "navigation",
     "tags": [],
-    "uri": "navigation.feature",
+    "uri": "navigationn.feature",
     "elements": [
       {
         "id": "navigation;hover-over-the-navigation-menu-and-click-on-a-link-to-navigate-to-the-page-with-the-correct-text",
@@ -21,8 +21,8 @@
             "line": 4,
             "name": "a web browser is at the cart.com homepage",
             "result": {
-              "status": "passed",
-              "duration": 7740000000
+              "status": "undefined",
+              "duration": 91000000
             }
           },
           {
@@ -31,8 +31,7 @@
             "line": 7,
             "name": "the user hover over the menu \"Storefront\"",
             "result": {
-              "status": "passed",
-              "duration": 315000000
+              "status": "skipped"
             }
           },
           {
@@ -41,8 +40,7 @@
             "line": 8,
             "name": "click \"Storefront Analytics\" link",
             "result": {
-              "status": "passed",
-              "duration": 4674000000
+              "status": "skipped"
             }
           },
           {
@@ -51,8 +49,7 @@
             "line": 9,
             "name": "a page with \"A bird's-eye view of your online store data.\" appears",
             "result": {
-              "status": "passed",
-              "duration": 74000000
+              "status": "skipped"
             }
           }
         ]
@@ -71,8 +68,7 @@
             "line": 4,
             "name": "a web browser is at the cart.com homepage",
             "result": {
-              "status": "passed",
-              "duration": 4370000000
+              "status": "undefined"
             }
           },
           {
@@ -81,8 +77,7 @@
             "line": 7,
             "name": "the user hover over the menu \"Fulfillment\"",
             "result": {
-              "status": "passed",
-              "duration": 1220000000
+              "status": "skipped"
             }
           },
           {
@@ -91,8 +86,7 @@
             "line": 8,
             "name": "click \"Order Management\" link",
             "result": {
-              "status": "passed",
-              "duration": 4065000000
+              "status": "skipped"
             }
           },
           {
@@ -101,8 +95,7 @@
             "line": 9,
             "name": "a page with \"The who, what, when, where and why of every order.\" appears",
             "result": {
-              "status": "passed",
-              "duration": 102000000
+              "status": "skipped"
             }
           }
         ]
@@ -121,8 +114,7 @@
             "line": 4,
             "name": "a web browser is at the cart.com homepage",
             "result": {
-              "status": "passed",
-              "duration": 4989000000
+              "status": "undefined"
             }
           },
           {
@@ -131,8 +123,7 @@
             "line": 7,
             "name": "the user hover over the menu \"Funding\"",
             "result": {
-              "status": "passed",
-              "duration": 565000000
+              "status": "skipped"
             }
           },
           {
@@ -141,8 +132,7 @@
             "line": 8,
             "name": "click \"Growth Capital\" link",
             "result": {
-              "status": "passed",
-              "duration": 12141000000
+              "status": "skipped"
             }
           },
           {
@@ -151,8 +141,7 @@
             "line": 9,
             "name": "a page with \"Ecommerce-focused funding.\" appears",
             "result": {
-              "status": "passed",
-              "duration": 130000000
+              "status": "skipped"
             }
           }
         ]
