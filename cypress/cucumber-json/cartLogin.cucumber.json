@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "cartLogin.feature",
+    "elements": [
+      {
+        "id": "login;land-on-login-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "land on login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the url http://console-dev.cart.com",
+            "result": {
+              "status": "failed",
+              "duration": 60275000000,
+              "error_message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://console-dev.cart.com/__cypress/runner/cypress_runner.js:158308:72)\n    at https://console-dev.cart.com/__cypress/runner/cypress_runner.js:159361:16\nFrom previous event:\n    at Context.visit (https://console-dev.cart.com/__cypress/runner/cypress_runner.js:159360:61)\nFrom Your Spec Code:\n    at Context.eval (https://console-dev.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\cartLogin.feature:12:6)\n    at Context.resolveAndRunStepDefinition (https://console-dev.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\cartLogin.feature:10450:29)\n    at Context.eval (https://console-dev.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\cartLogin.feature:9771:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the text Welcome to Cart.com",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

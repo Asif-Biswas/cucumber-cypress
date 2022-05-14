@@ -4,7 +4,7 @@ Feature: Login
 Background: Before Each
     Given a web browser is at the cart.com homepage
         And user click the signup button
-        And user should be redirected to the signup page with the title "Welcome to Cart.com"
+        And user should be redirected to the signup page with the title "welcomeTitle"
 
 
 Scenario: Invalid email and password

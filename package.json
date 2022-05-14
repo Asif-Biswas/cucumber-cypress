@@ -8,6 +8,8 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
+    "nonGlobalStepBaseDir": "cypress/integration/automationTest",
+    "stepDefinitions": "cypress/integration/scenariosSteps",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",

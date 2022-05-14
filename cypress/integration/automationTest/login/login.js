@@ -1,5 +1,5 @@
 import { Given, When, Then, And, Scenario } from "cypress-cucumber-preprocessor/steps";
-
+const loginObject = require('../../pageObjects/loginObject');
 
 function makeEmail() {
     var strValues = "abcdefg12345";
@@ -25,7 +25,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
 
-const url = "https://cart.com";
+const url = loginObject.url.homepage;
 
 beforeEach(() => {
     Given("a web browser is at the cart.com homepage", () => {
@@ -36,7 +36,7 @@ beforeEach(() => {
     });
     And("user should be redirected to the signup page with the title {string}", (string) => {
         cy.wait(5000);
-        cy.contains(string)
+        cy.contains(loginObject[string])
     });
 })
 
@@ -98,3 +98,10 @@ And("Click bottom Log in link", () => {
 Then("I see Log In button exists", () => {
     cy.get('#btn-login').contains('Log In')
 })
+
+Given("I visit the url http://console-dev.cart.con", () => {
+    cy.visit("http://console-dev.cart.con");
+});
+Then("I should see the text Welcome to Cart.com", () => {
+    cy.contains("Welcome to Cart.com")
+});

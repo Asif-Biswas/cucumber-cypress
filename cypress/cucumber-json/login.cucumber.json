@@ -8,6 +8,347 @@
     "uri": "login.feature",
     "elements": [
       {
+        "id": "login;invalid-email-and-password",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Invalid email and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 12556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 11936000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 12671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I fill username with \"invalid\" and password with \"invalid\"",
+            "result": {
+              "status": "passed",
+              "duration": 2071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click the login button",
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I see \"Wrong email or password\"",
+            "result": {
+              "status": "failed",
+              "duration": 4104000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Wrong email or password' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10549:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:9870:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;blank-email-field",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Blank email field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 10274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 5429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I fill password with \"@Testing11\"",
+            "result": {
+              "status": "passed",
+              "duration": 1668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "click the login button",
+            "result": {
+              "status": "passed",
+              "duration": 534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I see \"Wrong email or password\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Wrong email or password' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10549:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:9870:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;blank-password-field",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Blank password field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 12301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 19552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 5509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I fill email with \"vecanon423@richdn.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 4394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "click the login button",
+            "result": {
+              "status": "passed",
+              "duration": 527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I see \"Wrong email or password\"",
+            "result": {
+              "status": "passed",
+              "duration": 804000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;click-forgot-password-link",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Click forgot password link",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 8023000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 5355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I fill email with \"vecanon423@richdn.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 2810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "click the Forgot Password link",
+            "result": {
+              "status": "passed",
+              "duration": 888000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I see \"We've just sent you an email to reset your password\"",
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;click-forgot-password-link-with-blank-email",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Click forgot password link with blank email",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 9149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 21151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 6162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "click the Forgot Password link",
+            "result": {
+              "status": "passed",
+              "duration": 1035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I see \"email or username are required\"",
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          }
+        ]
+      },
+      {
         "id": "login;click-bottom-login-link-from-create-account-page",
         "keyword": "Scenario",
         "line": 39,
@@ -22,7 +363,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 8901000000
+              "duration": 8847000000
             }
           },
           {
@@ -32,17 +373,17 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 13492000000
+              "duration": 7804000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
+            "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
               "status": "passed",
-              "duration": 9477000000
+              "duration": 5297000000
             }
           },
           {
@@ -52,7 +393,7 @@
             "name": "I click \"Create Account\"",
             "result": {
               "status": "passed",
-              "duration": 456000000
+              "duration": 1255000000
             }
           },
           {
@@ -62,7 +403,7 @@
             "name": "Click bottom Log in link",
             "result": {
               "status": "passed",
-              "duration": 1363000000
+              "duration": 1379000000
             }
           },
           {
@@ -72,7 +413,84 @@
             "name": "I see Log In button exists",
             "result": {
               "status": "passed",
-              "duration": 117000000
+              "duration": 491000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;fill-the-login-form-with-valid-credintials-and-submit",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Fill the login form with valid credintials and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a web browser is at the cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 9548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click the signup button",
+            "result": {
+              "status": "passed",
+              "duration": 4704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 9039000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "vecanon423@richdn.com",
+                      "@Testing11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 46,
+            "name": "the user fill in the form with the following information and submit",
+            "result": {
+              "status": "passed",
+              "duration": 4699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the user should be redirected to the homepage with the title \"Featured Solutions\"",
+            "result": {
+              "status": "passed",
+              "duration": 18558000000
             }
           }
         ]

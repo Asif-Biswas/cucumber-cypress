@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
               "status": "passed",
-              "duration": 61086000000
+              "duration": 49985000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click the dropdown menu item",
             "result": {
               "status": "passed",
-              "duration": 727000000
+              "duration": 771000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "hover the \"Storefront\" link",
             "result": {
               "status": "passed",
-              "duration": 690000000
+              "duration": 533000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "click \"Storefront Analytics\" link",
             "result": {
               "status": "passed",
-              "duration": 4580000000
+              "duration": 5001000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "a page with \"A bird's-eye view of your online store data.\" appears",
             "result": {
               "status": "passed",
-              "duration": 145000000
+              "duration": 104000000
             }
           }
         ]

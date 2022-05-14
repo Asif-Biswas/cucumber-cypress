@@ -85,7 +85,7 @@ And("the user fill in the form with the following information and submit", (data
 
 And("the user see the Create Organization button and click it", () => {
     cy.wait(20000)
-    cy.contains('Create Organization').click();
+    cy.contains('Hi John, Welcome to Cart.com!')//.click();
 });
 
 And("the user fill the organization form and submit", () => {

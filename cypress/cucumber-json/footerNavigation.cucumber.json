@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 74612000000
+              "duration": 61918000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click \"Pixel\"",
             "result": {
               "status": "passed",
-              "duration": 4177000000
+              "duration": 6848000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "a page with \"Unlock the path to incrementality.\" appears",
             "result": {
               "status": "passed",
-              "duration": 208000000
+              "duration": 85000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 6966000000
+              "duration": 5385000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "the user click \"Inventory Storage\"",
             "result": {
               "status": "passed",
-              "duration": 2853000000
+              "duration": 2870000000
             }
           },
           {
@@ -81,8 +81,8 @@
             "line": 8,
             "name": "a page with \"Big footprint. Small price tag.\" appears",
             "result": {
-              "status": "passed",
-              "duration": 144000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Big footprint. Small price tag.' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:21:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:10456:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:9777:35)"
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 4560000000
+              "duration": 3960000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "the user click \"About Us\"",
             "result": {
               "status": "passed",
-              "duration": 3781000000
+              "duration": 13899000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "a page with \"Power to the brands\" appears",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 105000000
             }
           }
         ]
