@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
               "status": "passed",
-              "duration": 49985000000
+              "duration": 91454000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click the dropdown menu item",
             "result": {
               "status": "passed",
-              "duration": 771000000
+              "duration": 1034000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "hover the \"Storefront\" link",
             "result": {
               "status": "passed",
-              "duration": 533000000
+              "duration": 610000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "click \"Storefront Analytics\" link",
             "result": {
               "status": "passed",
-              "duration": 5001000000
+              "duration": 4137000000
             }
           },
           {
@@ -61,8 +61,9 @@
             "line": 9,
             "name": "a page with \"A bird's-eye view of your online store data.\" appears",
             "result": {
-              "status": "passed",
-              "duration": 104000000
+              "status": "failed",
+              "duration": 4163000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'A bird's-eye view of your online store data.' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\dropdownNavigation.feature:27:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\dropdownNavigation.feature:10462:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\dropdownNavigation.feature:9783:35)"
             }
           }
         ]

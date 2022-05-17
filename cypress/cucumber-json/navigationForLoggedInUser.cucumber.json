@@ -10,7 +10,7 @@
       {
         "id": "navigation-for-logged-in-users;fill-in-the-form-and-submit",
         "keyword": "Scenario",
-        "line": 19,
+        "line": 21,
         "name": "Fill in the form and submit",
         "tags": [],
         "type": "scenario",
@@ -18,98 +18,91 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "a web browser is at the \"https://cart.com\" homepage",
+            "line": 13,
+            "name": "I login",
             "result": {
               "status": "passed",
-              "duration": 279293000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "user click the signup button",
-            "result": {
-              "status": "passed",
-              "duration": 11903000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
-            "result": {
-              "status": "passed",
-              "duration": 5364000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "email",
-                      "password"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "vecanon423@richdn.com",
-                      "@Testing11"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the user fill in the form with the following information and submit",
-            "result": {
-              "status": "passed",
-              "duration": 3704000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user should be redirected to the homepage with the title \"Welcome to Cart.com\"",
-            "result": {
-              "status": "passed",
-              "duration": 109000000
+              "duration": 10446000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
+            "line": 15,
             "name": "the user click the dropdown menu",
             "result": {
               "status": "passed",
-              "duration": 13228000000
+              "duration": 8819000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 14,
+            "line": 16,
             "name": "click the \"Fulfillment\" link",
             "result": {
               "status": "passed",
-              "duration": 3912000000
+              "duration": 1876000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 17,
             "name": "the user should be redirected to the page with the title \"Fulfillment\"",
             "result": {
               "status": "passed",
-              "duration": 1256000000
+              "duration": 294000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-users;fill-in-the-form-and-submit",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Fill in the form and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I login",
+            "result": {
+              "status": "passed",
+              "duration": 4884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 8675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click the \"Storefront\" link",
+            "result": {
+              "status": "passed",
+              "duration": 1813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should be redirected to the page with the title \"Give it a name\"",
+            "result": {
+              "status": "passed",
+              "duration": 866000000
             }
           }
         ]

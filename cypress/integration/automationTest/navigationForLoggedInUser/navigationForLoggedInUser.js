@@ -1,39 +1,46 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
-
+Cypress.config('experimentalSessionSupport', true)
 Cypress.on('uncaught:exception', (err, runnable) => {
     // returning false here prevents Cypress from
     // failing the test
     return false
 })
 
+beforeEach(() => {
+    Given("I login", () => {
+        cy.login('vecanon423@richdn.com', '@Testing11');
+        cy.visit('https://console.cart.com/')
+    })
+})
 
 
-Given("a web browser is at the {string} homepage", (url) => {
-    cy.visit(url);
-});
 
-And("user click the signup button", () => {
-    cy.contains('Sign in').click();
-});
+// Given("a web browser is at the {string} homepage", (url) => {
+//     cy.visit(url);
+// });
 
-And("user should be redirected to the signup page with the title {string}", (string) => {
-    cy.contains(string)
-});
+// And("user click the signup button", () => {
+//     cy.contains('Sign in').click();
+// });
 
-And("the user fill in the form with the following information and submit", (datatable) => {
-    // user fill in the form with the following information
-    datatable.hashes().forEach(row => {
-        cy.get('#login-email').type(row.email);
-        cy.get('#login-password').type(row.password);
+// And("user should be redirected to the signup page with the title {string}", (string) => {
+//     cy.contains(string)
+// });
+
+// And("the user fill in the form with the following information and submit", (datatable) => {
+//     // user fill in the form with the following information
+//     datatable.hashes().forEach(row => {
+//         cy.get('#login-email').type(row.email);
+//         cy.get('#login-password').type(row.password);
         
-        cy.get('#btn-login').click();
-    });
-});
+//         cy.get('#btn-login').click();
+//     });
+// });
 
-And("the user should be redirected to the homepage with the title {string}", (content) => {
-    cy.contains(content);
-});
+// And("the user should be redirected to the homepage with the title {string}", (content) => {
+//     cy.contains(content);
+// });
 
 When("the user click the dropdown menu", () => {
     cy.get("body").then($body => {
@@ -60,7 +67,8 @@ And("click the {string} link", (link) => {
     cy.contains(link).click();
 });
 
-Then("the user should be redirected to the page with the title {string}", (title) => {
-    cy.contains(title);
+Then("the user should be redirected to the page with the url {string}", (url) => {
+    // check url
+    cy.url().should('include', url);
 
 });

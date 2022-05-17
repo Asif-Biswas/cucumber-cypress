@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 153598000000
+              "duration": 450357000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 10313000000
+              "duration": 65541000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 5170000000
+              "duration": 566000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 3202000000
+              "duration": 14322000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "the user should be redirected to the homepage with the title \"Welcome to Cart.com\"",
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 573000000
             }
           },
           {
@@ -88,8 +88,9 @@
             "line": 13,
             "name": "the user click the signout button",
             "result": {
-              "status": "passed",
-              "duration": 25315000000
+              "status": "failed",
+              "duration": 35433000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `header > div`, but never found it.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\logout.feature:34:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\logout.feature:10475:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\logout.feature:9796:35)"
             }
           },
           {
@@ -98,8 +99,7 @@
             "line": 14,
             "name": "the user should be redirected to the homepage with the title \"Log In\"",
             "result": {
-              "status": "passed",
-              "duration": 10102000000
+              "status": "skipped"
             }
           }
         ]

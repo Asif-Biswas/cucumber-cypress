@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store\" page",
             "result": {
               "status": "passed",
-              "duration": 29100000000
+              "duration": 23552000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click \"Comparison\" button",
             "result": {
               "status": "passed",
-              "duration": 6246000000
+              "duration": 3257000000
             }
           },
           {
@@ -41,8 +41,9 @@
             "line": 6,
             "name": "a page with \"Feature Comparison\" appears",
             "result": {
-              "status": "passed",
-              "duration": 94000000
+              "status": "failed",
+              "duration": 4160000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Feature Comparison' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\buttonClickNavigation.feature:21:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\buttonClickNavigation.feature:10456:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\buttonClickNavigation.feature:9777:35)"
             }
           }
         ]
@@ -62,7 +63,7 @@
             "name": "a web browser is at the \"https://www.cart.com/storefront/online-store/cart-shipping\" page",
             "result": {
               "status": "passed",
-              "duration": 4887000000
+              "duration": 5397000000
             }
           },
           {
@@ -72,7 +73,7 @@
             "name": "the user click \"Book a demo\" button",
             "result": {
               "status": "passed",
-              "duration": 4126000000
+              "duration": 4311000000
             }
           },
           {
@@ -82,7 +83,7 @@
             "name": "a page with \"Book a chat\" appears",
             "result": {
               "status": "passed",
-              "duration": 110000000
+              "duration": 190000000
             }
           }
         ]

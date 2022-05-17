@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Dropdown Navigation",
+    "line": 1,
+    "id": "dropdown-navigation",
+    "tags": [],
+    "uri": "featuredSectionNavigation.feature",
+    "elements": [
+      {
+        "id": "dropdown-navigation;click-the-navigation-dropdown-menu-item,-then-hover-the-item-and-click-on-the-lick-to-navigate-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Click the navigation dropdown menu item, then hover the item and click on the lick to navigate to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 19489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click the button Get Started in \"Unified Analytics\" card",
+            "result": {
+              "status": "passed",
+              "duration": 1327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "a page with url \"https://console.cart.com/unified-analytics/dashboard\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 1585000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dropdown-navigation;click-the-navigation-dropdown-menu-item,-then-hover-the-item-and-click-on-the-lick-to-navigate-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Click the navigation dropdown menu item, then hover the item and click on the lick to navigate to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 20933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click the button Get Started in \"Fulfillment\" card",
+            "result": {
+              "status": "passed",
+              "duration": 1021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "a page with url \"https://console.cart.com/fulfillment\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dropdown-navigation;click-the-navigation-dropdown-menu-item,-then-hover-the-item-and-click-on-the-lick-to-navigate-to-the-correct-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Click the navigation dropdown menu item, then hover the item and click on the lick to navigate to the correct page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 14383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click the button Get Started in \"Growth Marketing\" card",
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "a page with url \"https://console.cart.com/growth-marketing\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

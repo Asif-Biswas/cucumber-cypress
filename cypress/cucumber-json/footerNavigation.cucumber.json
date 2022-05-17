@@ -22,7 +22,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 61918000000
+              "duration": 108362000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user click \"Pixel\"",
             "result": {
               "status": "passed",
-              "duration": 6848000000
+              "duration": 4983000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "a page with \"Unlock the path to incrementality.\" appears",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 180000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 5385000000
+              "duration": 7180000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "the user click \"Inventory Storage\"",
             "result": {
               "status": "passed",
-              "duration": 2870000000
+              "duration": 4595000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "a page with \"Big footprint. Small price tag.\" appears",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Big footprint. Small price tag.' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:21:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:10456:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:9777:35)"
+              "error_message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.cart.com/__cypress/runner/cypress_runner.js:158308:72)\n    at https://www.cart.com/__cypress/runner/cypress_runner.js:158628:16\nFrom previous event:\n    at CommandQueue.run (https://www.cart.com/__cypress/runner/cypress_runner.js:186670:21)\n    at CommandQueue.run (https://www.cart.com/__cypress/runner/cypress_runner.js:172308:15)\n    at $Cy.cy.<computed> [as then] (https://www.cart.com/__cypress/runner/cypress_runner.js:173306:18)\nFrom Your Spec Code:\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:21:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:10456:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\footerNavigation.feature:9777:35)"
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "a web browser is at the \"https://cart.com\" homepage",
             "result": {
               "status": "passed",
-              "duration": 3960000000
+              "duration": 5637000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "the user click \"About Us\"",
             "result": {
               "status": "passed",
-              "duration": 13899000000
+              "duration": 5224000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "a page with \"Power to the brands\" appears",
             "result": {
               "status": "passed",
-              "duration": 105000000
+              "duration": 250000000
             }
           }
         ]
