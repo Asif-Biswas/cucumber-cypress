@@ -22,7 +22,7 @@
             "name": "a web browser is at the Book a chat page",
             "result": {
               "status": "passed",
-              "duration": 12353000000
+              "duration": 10628000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "the user fill in the form with the following information and submit",
             "result": {
               "status": "passed",
-              "duration": 5944000000
+              "duration": 5464000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "the user should be see the page with \"Thank you! 🙌 A representative will be in touch shortly.\"",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 160000000
             }
           }
         ]

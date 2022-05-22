@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 145519000000
+              "duration": 213204000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 10444000000
+              "duration": 9031000000
             }
           },
           {
@@ -41,8 +41,9 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
-              "status": "passed",
-              "duration": 6021000000
+              "status": "failed",
+              "duration": 11295000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'welcomeTitle' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:299:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10375:35)"
             }
           },
           {
@@ -51,8 +52,7 @@
             "line": 11,
             "name": "I fill username with \"invalid\" and password with \"invalid\"",
             "result": {
-              "status": "passed",
-              "duration": 2817000000
+              "status": "skipped"
             }
           },
           {
@@ -61,8 +61,7 @@
             "line": 12,
             "name": "click the login button",
             "result": {
-              "status": "passed",
-              "duration": 829000000
+              "status": "skipped"
             }
           },
           {
@@ -71,9 +70,7 @@
             "line": 13,
             "name": "I see \"Wrong email or password\"",
             "result": {
-              "status": "failed",
-              "duration": 4205000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Wrong email or password' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10555:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:9876:35)"
+              "status": "skipped"
             }
           }
         ]
@@ -93,7 +90,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 7807000000
+              "duration": 9975000000
             }
           },
           {
@@ -103,7 +100,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 10784000000
+              "duration": 10005000000
             }
           },
           {
@@ -112,8 +109,8 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
-              "status": "passed",
-              "duration": 5925000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'welcomeTitle' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:299:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10375:35)"
             }
           },
           {
@@ -122,8 +119,7 @@
             "line": 17,
             "name": "I fill password with \"@Testing11\"",
             "result": {
-              "status": "passed",
-              "duration": 1193000000
+              "status": "skipped"
             }
           },
           {
@@ -132,8 +128,7 @@
             "line": 18,
             "name": "click the login button",
             "result": {
-              "status": "passed",
-              "duration": 829000000
+              "status": "skipped"
             }
           },
           {
@@ -142,8 +137,7 @@
             "line": 19,
             "name": "I see \"Wrong email or password\"",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Wrong email or password' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10555:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:9876:35)"
+              "status": "skipped"
             }
           }
         ]
@@ -163,7 +157,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 12827000000
+              "duration": 23990000000
             }
           },
           {
@@ -173,7 +167,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 9801000000
+              "duration": 12138000000
             }
           },
           {
@@ -182,8 +176,8 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
-              "status": "passed",
-              "duration": 7487000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'welcomeTitle' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:299:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10375:35)"
             }
           },
           {
@@ -192,8 +186,7 @@
             "line": 23,
             "name": "I fill email with \"vecanon423@richdn.com\"",
             "result": {
-              "status": "passed",
-              "duration": 5283000000
+              "status": "skipped"
             }
           },
           {
@@ -202,8 +195,7 @@
             "line": 24,
             "name": "click the login button",
             "result": {
-              "status": "passed",
-              "duration": 829000000
+              "status": "skipped"
             }
           },
           {
@@ -212,8 +204,7 @@
             "line": 25,
             "name": "I see \"Wrong email or password\"",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Wrong email or password' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10555:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:9876:35)"
+              "status": "skipped"
             }
           }
         ]
@@ -233,7 +224,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 7474000000
+              "duration": 10476000000
             }
           },
           {
@@ -243,7 +234,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 9776000000
+              "duration": 13461000000
             }
           },
           {
@@ -252,8 +243,8 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
-              "status": "passed",
-              "duration": 5560000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'welcomeTitle' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:299:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10375:35)"
             }
           },
           {
@@ -262,8 +253,7 @@
             "line": 29,
             "name": "I fill email with \"vecanon423@richdn.com\"",
             "result": {
-              "status": "passed",
-              "duration": 7069000000
+              "status": "skipped"
             }
           },
           {
@@ -272,8 +262,7 @@
             "line": 30,
             "name": "click the Forgot Password link",
             "result": {
-              "status": "passed",
-              "duration": 2537000000
+              "status": "skipped"
             }
           },
           {
@@ -282,8 +271,7 @@
             "line": 31,
             "name": "I see \"We've just sent you an email to reset your password\"",
             "result": {
-              "status": "passed",
-              "duration": 706000000
+              "status": "skipped"
             }
           }
         ]
@@ -303,7 +291,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 20047000000
+              "duration": 32157000000
             }
           },
           {
@@ -313,7 +301,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 21613000000
+              "duration": 63345000000
             }
           },
           {
@@ -322,8 +310,8 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
-              "status": "passed",
-              "duration": 5524000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'welcomeTitle' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:299:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10375:35)"
             }
           },
           {
@@ -332,8 +320,7 @@
             "line": 35,
             "name": "click the Forgot Password link",
             "result": {
-              "status": "passed",
-              "duration": 1470000000
+              "status": "skipped"
             }
           },
           {
@@ -342,8 +329,7 @@
             "line": 36,
             "name": "I see \"email or username are required\"",
             "result": {
-              "status": "passed",
-              "duration": 1101000000
+              "status": "skipped"
             }
           }
         ]
@@ -363,7 +349,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 8400000000
+              "duration": 13815000000
             }
           },
           {
@@ -373,7 +359,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 13623000000
+              "duration": 12983000000
             }
           },
           {
@@ -382,8 +368,8 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
-              "status": "passed",
-              "duration": 5897000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'welcomeTitle' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:299:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10375:35)"
             }
           },
           {
@@ -392,8 +378,7 @@
             "line": 40,
             "name": "I click \"Create Account\"",
             "result": {
-              "status": "passed",
-              "duration": 1785000000
+              "status": "skipped"
             }
           },
           {
@@ -402,8 +387,7 @@
             "line": 41,
             "name": "Click bottom Log in link",
             "result": {
-              "status": "passed",
-              "duration": 1851000000
+              "status": "skipped"
             }
           },
           {
@@ -412,8 +396,7 @@
             "line": 42,
             "name": "I see Log In button exists",
             "result": {
-              "status": "passed",
-              "duration": 375000000
+              "status": "skipped"
             }
           }
         ]
@@ -433,7 +416,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 8468000000
+              "duration": 14878000000
             }
           },
           {
@@ -443,7 +426,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 4979000000
+              "duration": 11460000000
             }
           },
           {
@@ -452,8 +435,8 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"welcomeTitle\"",
             "result": {
-              "status": "passed",
-              "duration": 7628000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'welcomeTitle' but never did.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:299:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\login.feature:10375:35)"
             }
           },
           {
@@ -479,8 +462,7 @@
             "line": 46,
             "name": "the user fill in the form with the following information and submit",
             "result": {
-              "status": "passed",
-              "duration": 33016000000
+              "status": "skipped"
             }
           },
           {
@@ -489,8 +471,7 @@
             "line": 49,
             "name": "the user should be redirected to the homepage with the title \"Featured Solutions\"",
             "result": {
-              "status": "passed",
-              "duration": 21898000000
+              "status": "skipped"
             }
           }
         ]

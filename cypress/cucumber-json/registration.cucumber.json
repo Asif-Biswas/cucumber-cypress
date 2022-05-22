@@ -8,10 +8,10 @@
     "uri": "registration.feature",
     "elements": [
       {
-        "id": "registration;fill-in-the-form-with-valid-information-and-submit",
+        "id": "registration;create-account-navigation",
         "keyword": "Scenario",
-        "line": 60,
-        "name": "Fill in the form with valid information and submit",
+        "line": 10,
+        "name": "Create account navigation",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -22,7 +22,7 @@
             "name": "a web browser is at the cart.com homepage",
             "result": {
               "status": "passed",
-              "duration": 7641000000
+              "duration": 857703000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click the signup button",
             "result": {
               "status": "passed",
-              "duration": 13331000000
+              "duration": 13111000000
             }
           },
           {
@@ -41,77 +41,25 @@
             "line": 7,
             "name": "user should be redirected to the signup page with the title \"Welcome to Cart.com\"",
             "result": {
-              "status": "passed",
-              "duration": 14252000000
+              "status": "failed",
+              "duration": 12999000000,
+              "error_message": "CypressError: Cypress command timeout of `4000ms` exceeded.\n\nBecause this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `Registration`\n    at cypressErr (https://www.cart.com/__cypress/runner/cypress_runner.js:176389:18)\n    at Object.errByPath (https://www.cart.com/__cypress/runner/cypress_runner.js:176458:10)\n    at https://www.cart.com/__cypress/runner/cypress_runner.js:178227:80"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 61,
-            "name": "user click the Create Account button",
+            "line": 11,
+            "name": "I click \"Create Account\"",
             "result": {
-              "status": "passed",
-              "duration": 330000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "firstname",
-                      "lastname",
-                      "password",
-                      "phone"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "John",
-                      "Doe",
-                      "@Testing11",
-                      "1234567890"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "And ",
-            "line": 62,
-            "name": "the user fill in the form with the following information and submit",
-            "result": {
-              "status": "passed",
-              "duration": 2764000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 65,
-            "name": "the user see the Create Organization button and click it",
-            "result": {
-              "status": "passed",
-              "duration": 20470000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 66,
-            "name": "the user fill the organization form and submit",
-            "result": {
-              "status": "failed",
-              "duration": 4155000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#organization-name`, but never found it.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\registration.feature:123:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\registration.feature:10575:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\registration.feature:9896:35)"
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 67,
-            "name": "the user should be redirected to the homepage with the text \"Welcome to Cart.com\"",
+            "line": 12,
+            "name": "I see \"First name\"",
             "result": {
               "status": "skipped"
             }

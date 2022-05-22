@@ -21,8 +21,8 @@
             "line": 4,
             "name": "a web browser is at the cart.com homepage",
             "result": {
-              "status": "undefined",
-              "duration": 331000000
+              "status": "passed",
+              "duration": 626725000000
             }
           },
           {
@@ -31,7 +31,8 @@
             "line": 7,
             "name": "the user hover over the menu \"Storefront\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2479000000
             }
           },
           {
@@ -40,7 +41,9 @@
             "line": 8,
             "name": "click \"Storefront Analytics\" link",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "duration": 4606000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.teleporter__group__list`, but never found it.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:114:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:10375:35)"
             }
           },
           {
@@ -68,7 +71,8 @@
             "line": 4,
             "name": "a web browser is at the cart.com homepage",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 35004000000
             }
           },
           {
@@ -77,7 +81,8 @@
             "line": 7,
             "name": "the user hover over the menu \"Fulfillment\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 36883000000
             }
           },
           {
@@ -86,7 +91,8 @@
             "line": 8,
             "name": "click \"Order Management\" link",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.teleporter__group__list`, but never found it.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:114:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:10375:35)"
             }
           },
           {
@@ -114,7 +120,8 @@
             "line": 4,
             "name": "a web browser is at the cart.com homepage",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 14693000000
             }
           },
           {
@@ -123,7 +130,8 @@
             "line": 7,
             "name": "the user hover over the menu \"Funding\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4806000000
             }
           },
           {
@@ -132,7 +140,8 @@
             "line": 8,
             "name": "click \"Growth Capital\" link",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.teleporter__group__list`, but never found it.\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:114:6)\n    at Context.resolveAndRunStepDefinition (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:11054:29)\n    at Context.eval (https://www.cart.com/__cypress/tests?p=cypress\\integration\\scenariosSteps\\navigation.feature:10375:35)"
             }
           },
           {
